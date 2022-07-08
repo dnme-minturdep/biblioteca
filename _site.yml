@@ -1,0 +1,31 @@
+name: "biblioteca"
+title: "Biblioteca"
+description: |
+  Biblioteca
+favicon: img/favicon.ico
+output_dir: "docs"
+navbar:
+  logo:
+    image: sinta.png
+    href: https://www.yvera.tur.ar/sinta/
+  right:
+    - text: "SINTA"
+      menu:
+      - text: "Armonización"
+        href: https://armonizacion.yvera.tur.ar/
+      - text: "Bitácora"
+        href: https://bitacora.yvera.tur.ar
+      - text: "Calendario"
+        href: https://calendario.yvera.tur.ar/
+      - text: "Datos Abiertos"
+        href: https://datos.yvera.gob.ar/
+      - text: "Informes"
+        href: https://www.yvera.tur.ar/estadistica/informe
+      - text: "Monitor"
+        href: https://provincias.yvera.tur.ar/
+
+output:
+  distill::distill_article:
+    css:
+     - styles.css
+     - strapless.css

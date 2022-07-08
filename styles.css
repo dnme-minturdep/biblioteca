@@ -1,0 +1,140 @@
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Fira Mono');
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      30px;
+  --body-size:       1.0rem;                     /* edited */
+  --code-size:       0.9rem;                     /* edited */
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #37BBED;
+  --heading-color:   #37BBED;
+  --body-color:      #383838;                    /* edited */
+  --aside-color:     #37BBED;
+  --fig-cap-color:   #37BBED;
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    'Encode', sans-serif;         /* edited */
+  --mono-font:       'Fira Mono', monospace;     /* edited */
+  --body-font:       'Roboto', sans-serif;         /* edited */
+  --navbar-font:     'Encode', sans-serif;   /* edited */
+}
+
+
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       20px;                      /* edited */
+  --text-color:       #FFFFFF;                   /* edited */
+  --text-size:        20px;                      /* edited */
+  --hover-color:      #383838;                   /* edited */
+  --bkgd-color:       rgb(249, 83, 85);          /* edited */
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        20px;
+  --hover-color:      #EE3D8F;
+  --bkgd-color:       #0F2E3D;
+}
+
+/* PRUEBAS
+/*-- Additional custom styles --*/
+
+
+
+.distill-site-header .logo img{
+  max-height: 50px; /* Makes logo bigger, default was 20px */
+}
+
+
+
+.distill-site-header .title {
+    font-weight: 900;
+}
+
+ul > li::marker {
+  color: #EE3D8F;
+}
+
+d-title {
+  padding-top: 13rem; /*so that navbar doesn't overlap fixed title */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 20px;
+  font-family: "Encode Sans";
+  letter-spacing: 2px;
+  line-height: 2rem; /* increases, so wrapping headers don't overlap */
+
+}
+
+
+body {
+  font-family: "Roboto";
+  color: #1f1f1f;
+}
+
+
+
+/* --------------Navbar-------------------- */
+
+
+.distill-site-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.distill-site-header{
+  padding: 10px 0px;
+  font-size: 15px;
+  font-family: 'Encode Sans', sans-serif;
+  letter-spacing: 2px;
+
+
+  /* background-image for fade-to-white color of navbar */
+  background-color: #37BBED;
+
+}
+
+.distill-site-nav a {
+  color: #FFFFFF;
+  background-color: #37BBED;
+  text-decoration: none;
+}
+
+.distill-site-nav a:hover {
+  color: black;
+}
+
+
+/* -------------Footer------------------*/
+
+.distill-site-footer {
+  color: #f7f7f7b0;
+  background-color: #37BBED;
+  margin-top: 0px;
+  padding: 50px 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 12px;
+  text-align: left;
+}
