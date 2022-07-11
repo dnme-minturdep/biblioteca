@@ -5,8 +5,8 @@
       "title": "Biblioteca",
       "description": "Colección de Documentos de Trabajo y Publicaciones de la Dirección Nacional de Mercados y Estadísitca - Subsecretería de Desarrollo Estratégico\n",
       "author": [],
-      "contents": "\r\n\r\n\r\nd-article img {\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.btn-primary {\r\n    background-color: #74a08a;\r\n    color: #FFFFFF;\r\n    padding: 3px 5px 3px 5px;\r\n    margin: 0 2px 0 2px;\r\n    border-radius: 5px; /* Rounded edges */\r\n    border: 0px;\r\n}\r\n\r\n.btn-primary:hover {\r\n    background-color: #8a74a0;\r\n    color: #FFFFFF;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\nTodos\r\nReporte\r\nAnuario\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nEl reporte brinda información estadística relacionada con las\r\nprácticas turísticas en entornos naturales\r\n\r\nReporte\r\n\r\n\r\n\r\n\r\n\r\n\r\nAnuario de Estadísticas de Turismo 2015 (último publicado)\r\n\r\nAnuario\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-07-08T19:49:57-03:00"
+      "contents": "\n\n\nd-article img {\n  margin-bottom: 0px;\n}\n\n.btn-primary {\n    background-color: #74a08a;\n    color: #FFFFFF;\n    padding: 3px 5px 3px 5px;\n    margin: 0 2px 0 2px;\n    border-radius: 5px; /* Rounded edges */\n    border: 0px;\n}\n\n.btn-primary:hover {\n    background-color: #8a74a0;\n    color: #FFFFFF;\n}\n\n\n\n\n\n\nTodos\nReporte\nAnuario\n\n\n\n\n\n\n\n\n\n\n\nInformación estadística relacionada con las\nprácticas turísticas en entornos naturales\n\n\n\nReporte\n\n\n\n\n\n\n\n\n\n\nAnuario de Estadísticas de Turismo 2015 (último publicado)\n\n\n\nAnuario\n\n\n\n\n\n\n\n\n\n\nInformación estadística relacionada con las\nprácticas turísticas en entornos culturales\n\n\n\nReporte\n\n\n\n\n\n\n\n",
+      "last_modified": "2022-07-11T12:52:43-03:00"
     }
   ],
   "collections": []
