@@ -75,20 +75,12 @@ data.frame(
                    "Documento Técnico #4: Propuestas Metodológicas para las Encuestas de Perfil del Visitante",
                    "Documento Técnico #5: Medición de la contribución económica del turismo",
                    "Documento Técnico #6: Herramientas Computacionales para el Análisis de Datos"),
-  tags = c("Investigación;Encuestas", "Anuario", "Investigación; Encuestas",
-           "Anuario","Anuario","Anuario",
-           "Anuario","Anuario","Anuario",
-           "Anuario","Anuario","Anuario",
-           "Metodología; Encuestas", "Metodología; Encuestas", "Metodología; Registros Administrativos",
-           "Metodología; Encuestas", "Metodología; Economía", "Metodología; Ciencia de Datos")
-  #,
-  #Todos = c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ,1 ,1, 1, 1),
-  #Anuario = c(0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0),
-  #Informe = c(1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-  #Documento = c(0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0),
-  #Metodología = c(0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0, 1, 1, 1, 1, 1, 1)
-  ) %>%
+  tags = c("Documentos de Trabajo", "Estadísticas", "Documentos de Trabajo",
+           "Estadísticas","Estadísticas","Estadísticas",
+           "Estadísticas","Estadísticas","Estadísticas",
+           "Estadísticas","Estadísticas","Estadísticas",
+           "Metodología", "Metodología", "Metodología",
+           "Metodología", "Metodología", "Metodología")
+    ) %>%
   as_tibble() %>%
- # mutate(orden = c(1, 3, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13, 14, 15, 16, 17, 18)) %>%   # OREDNO POR TEMA Y NO POR TIPO DE RECURSO
- # arrange(orden)  %>%
   write_csv(here::here("content", "recursos.csv"))
