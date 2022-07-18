@@ -3,6 +3,9 @@
 library(tidyverse)
 
 data.frame(
+  orden = c(3, 9, 1,
+            10, 11, 12, 13, 14 , 15, 16, 17, 18,
+            8, 7, 6, 5, 4, 2),
   recurso = c("Turismo Naturaleza",
               "Anuario 2015",
               "Turismo Cultura",
@@ -33,12 +36,12 @@ data.frame(
           "img/aet_2008.png",
           "img/aet_2007.png",
           "img/aet_2006.png",
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""),
+          "img/armo01.png",
+          "img/armo02.png",
+          "img/armo03.png",
+          "img/armo04.png",
+          "img/armo05.png",
+          "img/armo06.png"),
   url = c("https://tableros.yvera.tur.ar/recursos/biblioteca/perfil_naturaleza.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2015.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/perfilcultura.pdf",
@@ -81,8 +84,9 @@ data.frame(
            "Estadísticas","Estadísticas","Estadísticas",
            "Estadísticas","Estadísticas","Estadísticas",
            "Estadísticas","Estadísticas","Estadísticas",
-           "Metodología", "Metodología", "Metodología",
-           "Metodología", "Metodología", "Metodología")
+           "Metodología; Armonización", "Metodología; Armonización", "Metodología; Armonización",
+           "Metodología; Armonización", "Metodología; Armonización", "Metodología; Armonización")
     ) %>%
   as_tibble() %>%
+  arrange(orden) %>%
   write_csv(here::here("content", "recursos.csv"))

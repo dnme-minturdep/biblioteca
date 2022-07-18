@@ -1,19 +1,19 @@
-recurso,src,url,description,tags
-Turismo Naturaleza,img/naturaleza.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfil_naturaleza.pdf,Información estadística relacionada con las prácticas turísticas en entornos naturales,Documentos de Trabajo; Estadísticas
-Anuario 2015,img/aet_2015.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2015.pdf,Anuario de Estadísticas de Turismo 2015,Estadísticas
-Turismo Cultura,img/cultura.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfilcultura.pdf,Información estadística relacionada con las prácticas turísticas en entornos culturales,Documentos de Trabajo; Estadísticas
-Anuario 2014,img/aet_2014.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2014.pdf,Anuario de Estadísticas de Turismo 2014,Estadísticas
-Anuario 2013,img/aet_2013.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2013.pdf,Anuario de Estadísticas de Turismo 2013,Estadísticas
-Anuario 2012,img/aet_2012.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2012.pdf,Anuario de Estadísticas de Turismo 2012,Estadísticas
-Anuario 2011,img/aet_2011.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2011.pdf,Anuario de Estadísticas de Turismo 2011,Estadísticas
-Anuario 2010,img/aet_2010.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2010.pdf,Anuario de Estadísticas de Turismo 2010,Estadísticas
-Anuario 2009,img/aet_2009.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2009.pdf,Anuario de Estadísticas de Turismo 2009,Estadísticas
-Anuario 2008,img/aet_2008.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2008.pdf,Anuario de Estadísticas de Turismo 2008,Estadísticas
-Anuario 2007,img/aet_2007.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2007.pdf,Anuario de Estadísticas de Turismo 2007,Estadísticas
-Anuario 2006,img/aet_2006.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2006.pdf,Anuario de Estadísticas de Turismo 2006,Estadísticas
-DT1,,https://dnme-minturdep.github.io/DT1_medicion_turismo/,Documento Técnico #1: Conceptos y Elementos Básicos para la Medición Provincial de los Turistas,Metodología
-DT2,,https://dnme-minturdep.github.io/DT2_encuestas/,Documento Técnico #2: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos,Metodología; Armonización
-DT3,,https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/,"Documento Técnico #3: Descripción, Análisis y Utilización de los Registros Administrativos para la medición del Turismo",Metodología; Armonización
-DT4,,https://dnme-minturdep.github.io/DT4_perfiles/,Documento Técnico #4: Propuestas Metodológicas para las Encuestas de Perfil del Visitante,Metodología; Armonización
-DT5,,https://dnme-minturdep.github.io/DT5_actividad_empleo/,Documento Técnico #5: Medición de la contribución económica del turismo,Metodología; Armonización
-DT6,,https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/,Documento Técnico #6: Herramientas Computacionales para el Análisis de Datos,Metodología; Armonización
+orden,recurso,src,url,description,tags
+1,Turismo Cultura,img/cultura.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfilcultura.pdf,Información estadística relacionada con las prácticas turísticas en entornos culturales,Documentos de Trabajo; Estadísticas
+2,DT6,img/armo06.png,https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/,Documento Técnico #6: Herramientas Computacionales para el Análisis de Datos,Metodología; Armonización
+3,Turismo Naturaleza,img/naturaleza.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfil_naturaleza.pdf,Información estadística relacionada con las prácticas turísticas en entornos naturales,Documentos de Trabajo; Estadísticas
+4,DT5,img/armo05.png,https://dnme-minturdep.github.io/DT5_actividad_empleo/,Documento Técnico #5: Medición de la contribución económica del turismo,Metodología; Armonización
+5,DT4,img/armo04.png,https://dnme-minturdep.github.io/DT4_perfiles/,Documento Técnico #4: Propuestas Metodológicas para las Encuestas de Perfil del Visitante,Metodología; Armonización
+6,DT3,img/armo03.png,https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/,"Documento Técnico #3: Descripción, Análisis y Utilización de los Registros Administrativos para la medición del Turismo",Metodología; Armonización
+7,DT2,img/armo02.png,https://dnme-minturdep.github.io/DT2_encuestas/,Documento Técnico #2: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos,Metodología; Armonización
+8,DT1,img/armo01.png,https://dnme-minturdep.github.io/DT1_medicion_turismo/,Documento Técnico #1: Conceptos y Elementos Básicos para la Medición Provincial de los Turistas,Metodología; Armonización
+9,Anuario 2015,img/aet_2015.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2015.pdf,Anuario de Estadísticas de Turismo 2015,Estadísticas
+10,Anuario 2014,img/aet_2014.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2014.pdf,Anuario de Estadísticas de Turismo 2014,Estadísticas
+11,Anuario 2013,img/aet_2013.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2013.pdf,Anuario de Estadísticas de Turismo 2013,Estadísticas
+12,Anuario 2012,img/aet_2012.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2012.pdf,Anuario de Estadísticas de Turismo 2012,Estadísticas
+13,Anuario 2011,img/aet_2011.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2011.pdf,Anuario de Estadísticas de Turismo 2011,Estadísticas
+14,Anuario 2010,img/aet_2010.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2010.pdf,Anuario de Estadísticas de Turismo 2010,Estadísticas
+15,Anuario 2009,img/aet_2009.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2009.pdf,Anuario de Estadísticas de Turismo 2009,Estadísticas
+16,Anuario 2008,img/aet_2008.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2008.pdf,Anuario de Estadísticas de Turismo 2008,Estadísticas
+17,Anuario 2007,img/aet_2007.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2007.pdf,Anuario de Estadísticas de Turismo 2007,Estadísticas
+18,Anuario 2006,img/aet_2006.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2006.pdf,Anuario de Estadísticas de Turismo 2006,Estadísticas
