@@ -1,4 +1,6 @@
 orden,recurso,src,url,description,tags
+-1,Cuenta Satelite - 2004 y 2016-2019,img/cuenta_sat.png,https://www.yvera.tur.ar/sinta/informe/documentos/descarga/61fad7e475abe809073943.pdf,Cuenta satélite de turismo de la Argentina(Años 2004 y 2016-2019,Metodología
+0,Cuenta Satelite - Metodología,img/cuenta_sat_metodo.png,https://www.yvera.tur.ar/sinta/informe/documentos/descarga/61fad2ebbb2db408458887.pdf,Metodología de estimación,Metodología
 1,Turismo Cultura,img/cultura.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfilcultura.pdf,Información estadística relacionada con las prácticas turísticas en entornos culturales,Documentos de Trabajo; Estadísticas
 2,DT6,img/armo06.png,https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/,Documento Técnico #6: Herramientas Computacionales para el Análisis de Datos,Metodología; Armonización
 3,Turismo Naturaleza,img/naturaleza.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfil_naturaleza.pdf,Información estadística relacionada con las prácticas turísticas en entornos naturales,Documentos de Trabajo; Estadísticas
