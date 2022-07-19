@@ -1,0 +1,55 @@
+---
+title: "Coyuntura"
+description: |
+  Seguimiento estadístico y económico del sector turístico
+
+output: distill::distill_article
+
+---
+
+
+<!-- Remove margin under images -->
+<style>
+d-article img {
+  margin-bottom: 0px;
+}
+
+.btn-primary {
+    background-color: #74a08a;
+    color: #FFFFFF;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+    border: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #8a74a0;
+    color: #FFFFFF;
+}
+</style>
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+#source(file.path("R", "functions.R"))
+library(tidyverse)
+# Read in projects csv file 
+projects <- readr::read_csv(here::here("content", "recursos_coyuntura.csv"))
+```
+
+```{r projects, echo=FALSE}
+projects %>% 
+  bs4cards::cards(
+  #  title = recurso,
+    text = description,
+    link = url,
+    image = src,
+    layout = "label-right",
+    label_colour = "white",
+    tags = paste("Todos;", tags),
+    footer = tags,
+    border_radius = 5, 
+    width =  5
+  )
+```
+

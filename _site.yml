@@ -25,6 +25,11 @@ navbar:
         href: https://provincias.yvera.tur.ar/
     - icon: fab fa-github
       href: https://github.com/dnme-minturdep
+  left:
+   # - text: "INICIO"
+   #   href: index.html
+    - text: "COYUNTURA"
+      href: coyuntura.html
 
 output:
   distill::distill_article:
