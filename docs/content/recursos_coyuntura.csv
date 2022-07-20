@@ -1,7 +1,9 @@
-recurso,src,url,description,tags,orden
-imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_junio.pdf,Evolución de los principales indicadoresde la actividad turística (JUNIO 2022),Estadísticas Turísticas,6
-imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_mayo.pdf,Evolución de los principales indicadoresde la actividad turística (MAYO 2022),Estadísticas Turísticas,5
-imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_abril.pdf,Evolución de los principales indicadoresde la actividad turística (ABRIL 2022),Estadísticas Turísticas,4
-imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_marzo.pdf,Evolución de los principales indicadoresde la actividad turística (MARZO 2022),Estadísticas Turísticas,3
-imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_febrero.pdf,Evolución de los principales indicadoresde la actividad turística (FEBRERO 2022),Estadísticas Turísticas,2
-imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_enero.pdf,Evolución de los principales indicadoresde la actividad turística (ENERO 2022),Estadísticas Turísticas,1
+recurso,src,url,description,tags,fecha
+imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_junio.pdf,Evolución de los principales indicadoresde la actividad turística (JUNIO 2022),Estadísticas Turísticas,2022-06-01
+panorama_jun2022,img/panorama.png,https://tableros.yvera.tur.ar/recursos/biblioteca/panorama_junio.pdf,Panorama económico del Turismo en Argentina (JUNIO 2022),Economía del Turismo,2022-06-01
+imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_mayo.pdf,Evolución de los principales indicadoresde la actividad turística (MAYO 2022),Estadísticas Turísticas,2022-05-01
+panorama_may2022,img/panorama.png,https://tableros.yvera.tur.ar/recursos/biblioteca/panorama_mayo.pdf,Panorama económico del Turismo en Argentina (MAYO 2022),Economía del Turismo,2022-05-01
+imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_abril.pdf,Evolución de los principales indicadoresde la actividad turística (ABRIL 2022),Estadísticas Turísticas,2022-04-01
+imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_marzo.pdf,Evolución de los principales indicadoresde la actividad turística (MARZO 2022),Estadísticas Turísticas,2022-03-01
+imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_febrero.pdf,Evolución de los principales indicadoresde la actividad turística (FEBRERO 2022),Estadísticas Turísticas,2022-02-01
+imet_ene2022,img/imet.png,https://tableros.yvera.tur.ar/recursos/biblioteca/imet_enero.pdf,Evolución de los principales indicadoresde la actividad turística (ENERO 2022),Estadísticas Turísticas,2022-01-01
