@@ -1,5 +1,5 @@
 name: "biblioteca"
-title: "Biblioteca"
+title: ""
 description: |
   Biblioteca
 favicon: img/favicon.ico
@@ -28,6 +28,8 @@ navbar:
   left:
    # - text: "INICIO"
    #   href: index.html
+    - text: "BIBLIOTECA"
+      href: index.html
     - text: "COYUNTURA"
       href: coyuntura.html
 

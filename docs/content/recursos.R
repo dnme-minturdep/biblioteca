@@ -4,18 +4,18 @@
 
   data.frame(
     fecha = c("05/2020", "10/2019", "04/2018", # EOH  TI  ETI
-              "02/2022", "02/2022", # CUENTA SATELITE
-              "04/2022", # NATURALEZA
+              "02/2022", "02/2022", # CUENTA SATELITE x2
+              "04/2022", # NATURALEZA - Perfil Estadísticas
               "01/2016", # ANUARIO 2015 - FEcha para ANUARIOS del año previo
-              "04/2022", # CULTURA
-              "01/2015", # FEcha para ANUARIOS del año previo
-              "01/2014", # FEcha para ANUARIOS del año previo
-              "01/2013", # FEcha para ANUARIOS del año previo
-              "01/2012", # FEcha para ANUARIOS del año previo
-              "01/2011", # FEcha para ANUARIOS del año previo
-              "01/2010", # FEcha para ANUARIOS del año previo
-              "01/2009", # FEcha para ANUARIOS del año previo
-              "01/2008", # FEcha para ANUARIOS del año previo
+              "04/2022", # CULTURA - Perfil Estadísticas
+              "01/2015", # Fecha para ANUARIOS del año previo
+              "01/2014", # Fecha para ANUARIOS del año previo
+              "01/2013", # Fecha para ANUARIOS del año previo
+              "01/2012", # Fecha para ANUARIOS del año previo
+              "01/2011", # Fecha para ANUARIOS del año previo
+              "01/2010", # Fecha para ANUARIOS del año previo
+              "01/2009", # Fecha para ANUARIOS del año previo
+              "01/2008", # Fecha para ANUARIOS del año previo
               "01/2007", # DOCUMENTOS TECNICOS
               "12/2021", "12/2021", "12/2021", "12/2021", "12/2021", "12/2021"
               ),
@@ -90,11 +90,11 @@
     description  = c("Enucesta de Ocupación Hotelera - EOH - Aspectos Metodológicos (mayo de 2020)",
                      "Estimación del Turismo Internacional de Argentina (octubre de 2019)",
                      "Encuesta de Turismo Internacional - ETI (abril de 2018)",
-                     "Cuenta satélite de turismo de la Argentina(Años 2004 y 2016-2019)",
-                     "Metodología de estimación",
-                     "Información estadística relacionada con las prácticas turísticas en entornos naturales",
+                     "Cuenta satélite de turismo de la Argentina. Medición de la contribución del sector turístico a la economía y sus interrelaciones con el resto de las actividades.  (febrero de 2022)",
+                     "Cuenta satélite de turismo de la Argentina. Metodología de estimación. Año base 2004 y serie 2016 - 2019 a precios constantes (febrero de 2022)",
+                     "Información estadística (a partir de la Encuesta de Turismo Internacional -ETI- y la Encuesta de Viaje y Turismo de los Hogares -EVyTH) relacionada con las prácticas turísticas en entornos naturales",
                      "Anuario de Estadísticas de Turismo 2015",
-                     "Información estadística relacionada con las prácticas turísticas en entornos culturales",
+                     "Información estadística (a partir de la Encuesta de Turismo Internacional -ETI- y la Encuesta de Viaje y Turismo de los Hogares -EVyTH) relacionada con las prácticas turísticas en entornos culturales",
                      "Anuario de Estadísticas de Turismo 2014",
                      "Anuario de Estadísticas de Turismo 2013",
                      "Anuario de Estadísticas de Turismo 2012",
