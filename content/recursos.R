@@ -18,7 +18,8 @@
               "01/2008", # Fecha para ANUARIOS del año previo
               "01/2007", # DOCUMENTOS TECNICOS
               "12/2021", "12/2021", "12/2021", "12/2021", "12/2021", "12/2021",
-              "06/2022"),
+              "06/2022",
+              "12/2021"),
     recurso = c("EOH", # MAYO 2020  -2
                 "Turismo Internacional", # OCTUBRE 2019 9.75
                 "ETI", # ABRIL 2018  9.5
@@ -42,7 +43,8 @@
                 "DT4", # 6
                 "DT5", # 4
                 "DT6", # 2
-                "Metodología EVYTH"),
+                "Metodología EVYTH",
+                "ITCMRT"),
     src = c("img/eoh_metodologico.png",
             "img/metodologia_estimacion_tur.png",
             "img/eti_indec.png",
@@ -66,7 +68,8 @@
             "img/armo04.png",
             "img/armo05.png",
             "img/armo06.png",
-            "img/metodologia_evyth.png"),
+            "img/metodologia_evyth.png",
+            "img/itcmt.png"),
     url = c("https://www.yvera.tur.ar/sinta/informe/documentos/descarga/60c8a5294550f707538011.pdf",
             "https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5dc0460bcfa3e053142696.pdf",
             "https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5d5c00efe6866641938689.pdf","https://www.yvera.tur.ar/sinta/informe/documentos/descarga/61fad7e475abe809073943.pdf",
@@ -89,7 +92,8 @@
             "https://dnme-minturdep.github.io/DT4_perfiles/",
             "https://dnme-minturdep.github.io/DT5_actividad_empleo/",
             "https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/",
-            "https://d4t4tur.github.io/evyth_metodologia/"),
+            "https://d4t4tur.github.io/evyth_metodologia/",
+            "https://tableros.yvera.tur.ar/recursos/biblioteca/metodologia_itcrmt.pdf"),
     description  = c("Enucesta de Ocupación Hotelera - EOH - Aspectos Metodológicos (mayo de 2020)",
                      "Estimación del Turismo Internacional de Argentina para todas las vías de acceso - terrestre, fluviames martítimos y aéreos (octubre de 2019).",
                      "Encuesta de Turismo Internacional - ETI (abril de 2018)",
@@ -113,7 +117,8 @@
                      "Documento Técnico #4: Propuestas Metodológicas para las Encuestas de Perfil del Visitante",
                      "Documento Técnico #5: Medición de la contribución económica del turismo",
                      "Documento Técnico #6: Herramientas Computacionales para el Análisis de Datos",
-                     "Metodología utilizada en la Encuesta de Viajes y Turismo (EVyTH)."),
+                     "Metodología utilizada en la Encuesta de Viajes y Turismo (EVyTH)",
+                     "El Índice del Tipo de Cambio Real Multilateral Turístico (ITCRMT) mide el precio relativo de los bienes y servicios de nuestra economía con respecto a los de un grupo de países relevantes en términos de intercambio turístico."),
     tags = c("Metodología",
              "Metodología",
              "Metodología",
@@ -127,6 +132,7 @@
              "Anuario Estadístico","Anuario Estadístico","Anuario Estadístico",
              "Metodología", "Metodología", "Metodología",
              "Metodología", "Metodología", "Metodología",
+             "Metodología",
              "Metodología")
       ) %>%
     as_tibble() %>%
