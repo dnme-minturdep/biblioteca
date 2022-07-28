@@ -1,4 +1,7 @@
 fecha,recurso,src,url,description,tags
+2022-07-01,Rutas Naturales,img/rutas_naturales.png,https://tableros.yvera.tur.ar/recursos/biblioteca/plan_estrategico_lrn.pdf,Rutas Naturales,Documentos de Trabajo
+2022-07-01,Nomades Digitales,img/ciudad_anfi_nativosdigitales.png,https://tableros.yvera.tur.ar/recursos/biblioteca/nomades_digitales.pdf,Ciudades Anfitrionas para Nómades Digitales,Documentos de Trabajo
+2022-07-01,Ciudades Anfitrionas,img/ciudad_anfi.png,https://tableros.yvera.tur.ar/recursos/biblioteca/ciudades_anfitrionas_lrn.pdf,Ciudades Anfitrionas,Documentos de Trabajo
 2022-06-01,Metodología EVYTH,img/metodologia_evyth.png,https://d4t4tur.github.io/evyth_metodologia/,Metodología utilizada en la Encuesta de Viajes y Turismo (EVyTH),Metodología
 2022-04-01,Turismo Naturaleza,img/naturaleza.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfil_naturaleza.pdf,Información estadística (a partir de la Encuesta de Turismo Internacional -ETI- y la Encuesta de Viaje y Turismo de los Hogares -EVyTH) relacionada con las prácticas turísticas en entornos naturales,Documentos de Trabajo
 2022-04-01,Turismo Cultura,img/cultura.png,https://tableros.yvera.tur.ar/recursos/biblioteca/perfil_cultura.pdf,Información estadística (a partir de la Encuesta de Turismo Internacional -ETI- y la Encuesta de Viaje y Turismo de los Hogares -EVyTH) relacionada con las prácticas turísticas en entornos culturales,Documentos de Trabajo
@@ -11,8 +14,8 @@ fecha,recurso,src,url,description,tags
 2021-12-01,DT3,img/armo03.png,https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/,"Documento Técnico #3: Descripción, Análisis y Utilización de los Registros Administrativos para la medición del Turismo",Metodología
 2021-12-01,DT2,img/armo02.png,https://dnme-minturdep.github.io/DT2_encuestas/,Documento Técnico #2: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos,Metodología
 2021-12-01,DT1,img/armo01.png,https://dnme-minturdep.github.io/DT1_medicion_turismo/,Documento Técnico #1: Conceptos y Elementos Básicos para la Medición Provincial de los Turistas,Metodología
-2020-05-01,EOH,img/eoh_metodologico.png,https://www.yvera.tur.ar/sinta/informe/documentos/descarga/60c8a5294550f707538011.pdf,Enucesta de Ocupación Hotelera - EOH - Aspectos Metodológicos (mayo de 2020),Metodología
-2019-10-01,Turismo Internacional,img/metodologia_estimacion_tur.png,https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5dc0460bcfa3e053142696.pdf,"Estimación del Turismo Internacional de Argentina para todas las vías de acceso - terrestre, fluviames martítimos y aéreos (octubre de 2019).",Metodología
+2020-05-01,EOH,img/eoh_metodologico.png,https://www.yvera.tur.ar/sinta/informe/documentos/descarga/60c8a5294550f707538011.pdf,Encuesta de Ocupación Hotelera - EOH - Aspectos Metodológicos (mayo de 2020),Metodología
+2019-10-01,Turismo Internacional,img/metodologia_estimacion_tur.png,https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5dc0460bcfa3e053142696.pdf,"Estimación del Turismo Internacional de Argentina para todas las vías de acceso - terrestre, fluviales marítimos y aéreos (octubre de 2019).",Metodología
 2018-04-01,ETI,img/eti_indec.png,https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5d5c00efe6866641938689.pdf,Encuesta de Turismo Internacional - ETI (abril de 2018),Metodología
 2016-01-01,Anuario 2015,img/aet_2015.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2015.pdf,Anuario de Estadísticas de Turismo 2015,Anuario Estadístico
 2015-01-01,Anuario 2014,img/aet_2014.png,https://tableros.yvera.tur.ar/recursos/biblioteca/anuario-2014.pdf,Anuario de Estadísticas de Turismo 2014,Anuario Estadístico
