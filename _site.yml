@@ -25,6 +25,8 @@ navbar:
         href: https://www.yvera.tur.ar/estadistica/informe
       - text: "Monitor"
         href: https://provincias.yvera.tur.ar/
+      - text: "Tableros y Reportes"
+        href: https://tableros.yvera.tur.ar/
     - icon: fab fa-github
       href: https://github.com/dnme-minturdep
    # - text: "INICIO"
