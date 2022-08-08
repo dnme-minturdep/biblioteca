@@ -1,7 +1,7 @@
 ---
 title: "Biblioteca"
 description: |
-  Colección de Documentos de Trabajo y Publicaciones de la Dirección Nacional de Mercados y Estadísitca - Subsecretería de Desarrollo Estratégico
+  Colección de Documentos de Trabajo y Publicaciones de la Dirección Nacional de Mercados y Estadísitca - Subsecretaría de Desarrollo Estratégico
 site: distill::distill_website
 preview: https://bitacora.yvera.tur.ar/posts/bienvenida/sinta.png
 ---
