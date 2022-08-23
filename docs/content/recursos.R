@@ -20,7 +20,8 @@ data.frame(
             "12/2021", "12/2021", "12/2021", "12/2021", "12/2021", "12/2021",# docu tec armonización
             "06/2022",
             "12/2021",
-            "07/2022", "07/2022", "07/2022"),# documentos rutas naturales, ciudades anfitrionas
+            "07/2022", "07/2022", "07/2022", # documentos rutas naturales, ciudades anfitrionas
+            "08/2022"), # AGENCIAS
   recurso = c("EOH", # MAYO 2020  -2
               "Turismo Internacional", # OCTUBRE 2019 9.75
               "ETI", # ABRIL 2018  9.5
@@ -48,7 +49,8 @@ data.frame(
               "ITCMRT",
               "Rutas Naturales",
               "Ciudades Anfitrionas",
-              "Nomades Digitales"),
+              "Nomades Digitales",
+              "Agencias"),
   src = c("img/eoh_metodologico.png",
           "img/metodologia_estimacion_tur.png",
           "img/eti_indec.png",
@@ -76,6 +78,7 @@ data.frame(
           "img/itcmt.png",
           "img/rutas_naturales.png",
           "img/ciudad_anfi.png",
+          "img/ciudad_anfi_nativosdigitales.png",
           "img/ciudad_anfi_nativosdigitales.png"),
   url = c("https://www.yvera.tur.ar/sinta/informe/documentos/descarga/60c8a5294550f707538011.pdf",
           "https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5dc0460bcfa3e053142696.pdf",
@@ -103,7 +106,8 @@ data.frame(
           "https://tableros.yvera.tur.ar/recursos/biblioteca/metodologia_itcrmt.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/plan_estrategico_lrn.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/ciudades_anfitrionas_lrn.pdf",
-          "https://tableros.yvera.tur.ar/recursos/biblioteca/nomades_digitales.pdf"),
+          "https://tableros.yvera.tur.ar/recursos/biblioteca/nomades_digitales.pdf",
+          "https://tableros.yvera.tur.ar/recursos/biblioteca/agencias.pdf"),
   description  = c("Encuesta de Ocupación Hotelera - EOH - Aspectos Metodológicos (mayo de 2020)",
                    "Estimación del Turismo Internacional de Argentina para todas las vías de acceso - terrestre, fluviales marítimos y aéreos (octubre de 2019).",
                    "Encuesta de Turismo Internacional - ETI (abril de 2018)",
@@ -129,9 +133,10 @@ data.frame(
                    "Documento Técnico #6: Herramientas Computacionales para el Análisis de Datos",
                    "Metodología utilizada en la Encuesta de Viajes y Turismo (EVyTH)",
                    "El Índice del Tipo de Cambio Real Multilateral Turístico (ITCRMT) mide el precio relativo de los bienes y servicios de nuestra economía con respecto a los de un grupo de países relevantes en términos de intercambio turístico.",
-                   "Rutas Naturales",
-                   "Ciudades Anfitrionas",
-                   "Ciudades Anfitrionas para Nómades Digitales"),
+                   "Plan Estratégico de Desarrollo y Promoción: Turismo de Naturaleza en Argentina",
+                   "Las Ciudades Anfitrionas en la Propuesta de La Ruta Natural",
+                   "Propuesta Territorial de Ciudades Anfitrionas para Nómades Digitales",
+                   "Agencias de Viaje. Según datos del Registro de Agencias de Viajes (marzo, 2022)"),
   tags = c("Metodología",
            "Metodología",
            "Metodología",
@@ -147,6 +152,7 @@ data.frame(
            "Metodología", "Metodología", "Metodología",
            "Metodología",
            "Metodología",
+           "Documentos de Trabajo",
            "Documentos de Trabajo",
            "Documentos de Trabajo",
            "Documentos de Trabajo")
