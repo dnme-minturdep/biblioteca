@@ -115,7 +115,7 @@ data.frame(
           "https://tableros.yvera.tur.ar/recursos/biblioteca/nomades_digitales.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/agencias.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/propuesta_territorial_lrn.pdf",
-          "https://tableros.yvera.tur.ar/recursos/biblioteca/gestion_ambinetal.pdf"),
+          "https://tableros.yvera.tur.ar/recursos/biblioteca/gestion_ambiental.pdf"),
   description  = c("Encuesta de Ocupación Hotelera - EOH - Aspectos Metodológicos (mayo de 2020)",
                    "Estimación del Turismo Internacional de Argentina para todas las vías de acceso - terrestre, fluviales marítimos y aéreos (octubre de 2019).",
                    "Encuesta de Turismo Internacional - ETI (abril de 2018)",
