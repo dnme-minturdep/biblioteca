@@ -22,6 +22,7 @@ data.frame(
             "12/2021",
             "07/2022", "07/2022", "07/2022", # documentos rutas naturales, ciudades anfitrionas
             "08/2022", # AGENCIAS
+            "08/2022", # Territorial LRN
             "08/2022"),
   recurso = c("EOH", # MAYO 2020  -2
               "Turismo Internacional", # OCTUBRE 2019 9.75
@@ -52,7 +53,8 @@ data.frame(
               "Ciudades Anfitrionas",
               "Nomades Digitales",
               "Agencias",
-              "Territorio LRN"),
+              "Territorio LRN",
+              "Gestión Ambiental"),
   src = c("img/eoh_metodologico.png",
           "img/metodologia_estimacion_tur.png",
           "img/eti_indec.png",
@@ -82,7 +84,8 @@ data.frame(
           "img/ciudad_anfi.png",
           "img/ciudad_anfi_nativosdigitales.png",
           "img/agencias_de_viajes.png",
-          "img/propuesta_territorial.png"),
+          "img/propuesta_territorial.png",
+          "img/gestion_ambiental.png"),
   url = c("https://www.yvera.tur.ar/sinta/informe/documentos/descarga/60c8a5294550f707538011.pdf",
           "https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5dc0460bcfa3e053142696.pdf",
           "https://www.yvera.tur.ar/sinta/informe/documentos/descarga/5d5c00efe6866641938689.pdf","https://www.yvera.tur.ar/sinta/informe/documentos/descarga/61fad7e475abe809073943.pdf",
@@ -111,7 +114,8 @@ data.frame(
           "https://tableros.yvera.tur.ar/recursos/biblioteca/ciudades_anfitrionas_lrn.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/nomades_digitales.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/agencias.pdf",
-          "https://tableros.yvera.tur.ar/recursos/biblioteca/propuesta_territorial_lrn.pdf"),
+          "https://tableros.yvera.tur.ar/recursos/biblioteca/propuesta_territorial_lrn.pdf",
+          "https://tableros.yvera.tur.ar/recursos/biblioteca/gestion_ambinetal.pdf"),
   description  = c("Encuesta de Ocupación Hotelera - EOH - Aspectos Metodológicos (mayo de 2020)",
                    "Estimación del Turismo Internacional de Argentina para todas las vías de acceso - terrestre, fluviales marítimos y aéreos (octubre de 2019).",
                    "Encuesta de Turismo Internacional - ETI (abril de 2018)",
@@ -141,7 +145,8 @@ data.frame(
                    "Las Ciudades Anfitrionas en la Propuesta de La Ruta Natural",
                    "Propuesta Territorial de Ciudades Anfitrionas para Nómades Digitales",
                    "Caracterización de las Agencias de Viaje según datos del Registro de Agencias de Viajes (marzo de 2022)",
-                   "Propuesta Territorial de la estrategia integral de desarrollo y promoción que propone una organización de la oferta turística a través de la Ruta Natural"),
+                   "Propuesta Territorial de la estrategia integral de desarrollo y promoción que propone una organización de la oferta turística a través de la Ruta Natural",
+                   "Estadísticas de las Directrices de Gestión Ambiental perteneciente al Sistema Argentino de Calidad Turística (SACT)."),
   tags = c("Metodología",
            "Metodología",
            "Metodología",
@@ -157,6 +162,7 @@ data.frame(
            "Metodología", "Metodología", "Metodología",
            "Metodología",
            "Metodología",
+           "Documentos de Trabajo",
            "Documentos de Trabajo",
            "Documentos de Trabajo",
            "Documentos de Trabajo",
