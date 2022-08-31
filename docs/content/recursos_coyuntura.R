@@ -32,7 +32,7 @@ data.frame(
           "https://tableros.yvera.tur.ar/recursos/biblioteca/panorama_mayo.pdf",
           "https://tableros.yvera.tur.ar/recursos/biblioteca/panorama_junio.pdf",
           "https://tableros.yvera.tur.ar/institucional/imet/imet_julio_final.pdf",
-          "https://tableros.yvera.tur.ar/institucional/imet/imet_agosto.pdf"),
+          "https://tableros.yvera.tur.ar/institucional/imet/imet_agosto_2022.pdf"),
   description  = c("Evolución de los principales indicadoresde la actividad turística (ENERO 2022)",
                    "Evolución de los principales indicadoresde la actividad turística (FEBRERO 2022)",
                    "Evolución de los principales indicadoresde la actividad turística (MARZO 2022)",
