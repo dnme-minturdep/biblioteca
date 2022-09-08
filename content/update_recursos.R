@@ -11,6 +11,8 @@ googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1wsgMKiar89XS7
   drop_na() %>%
   write_csv(here::here("content", "recursos.csv"))
 
+rmarkdown::render(input = "index.Rmd", output_dir = "docs", output_yaml = "_site.yml")
+
 }
 
 
