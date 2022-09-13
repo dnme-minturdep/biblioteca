@@ -52,9 +52,8 @@ nueva_publicacion_coynutura <- function(publicacion = NULL){
             url =  glue::glue("https://tableros.yvera.tur.ar/recursos/biblioteca/{publicacion}_{Sys.Date().pdf}"),
             description = ifelse(publicacion == "imet", yes = desc_imet, no = desc_panorama),
             tags = ifelse(publicacion == "imet", yes = "Estadísticas Turísticas", no = "Economía del Turismo"),
-            fecha = Sys.Date()
-    )
-   %>%  write_csv("content/recursos_coyuntura.csv") # GUARDO RECURSO ACTUALIZADO CON NUEVO REGISTRO
+            fecha = Sys.Date()) %>%
+    write_csv("content/recursos_coyuntura.csv") # GUARDO RECURSO ACTUALIZADO CON NUEVO REGISTRO
 
 
   rmarkdown::render(input = "coyuntura.Rmd", output_dir = "docs", output_yaml = "_site.yml")
