@@ -35,7 +35,7 @@ nueva_publicacion_coynutura <- function(publicacion = NULL){
   #### TEXTO PARA AGREGAR A DESCRIPTION CONDICIONAL A PARAMETRO DE LA FUNCION
 
 
-  desc_imet <- glue::glue("Evolución de los principales indicadoresde la actividad turística ({toupper(format(Sys.Date(),
+  desc_imet <- glue::glue("Evolución de los principales indicadores de la actividad turística ({toupper(format(Sys.Date(),
                           format='%B %Y'))})")
 
 
