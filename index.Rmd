@@ -43,12 +43,24 @@ projects %>%
     text = description,
     link = url,
     image = src,
-    layout = "label-right",
+    #layout = "label-below",
     label_colour = "white",
     tags = paste("Todos;", tags),
     footer = tags,
     border_radius = 5, 
-    width =  5
+    width =  4
   )
+
+# projects %>% 
+#   bs4cards::cards(
+#   #  title = recurso,
+#     text = description,
+#     link = url,
+#     image = src,
+#     label_colour = "white",
+#     tags = paste("Todos;", tags),
+#     footer = tags,
+#     border_radius = 5
+#   )
 ```
 
