@@ -7,7 +7,7 @@ library(tidyverse)
 imgs_path <- list.files(here::here("img/portadas"),
                         full.names = T)
 
-walk(imgs_path , \(x) {
+walk(imgs_path , function(x) {
   img <- magick::image_read(x)
   magick::image_scale(img, geometry = "348x207!")
   magick::image_write(img, x, format = "png")
