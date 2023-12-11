@@ -4,12 +4,25 @@ agregar_recurso <- function(){
 
 library(tidyverse)
 
+imgs_path <- list.files(here::here("img/portadas"),
+                        full.names = T)
+
+walk(imgs_path , function(x) {
+  print(x)
+  img <- magick::image_read(x)
+  magick::image_resize(img, geometry = "348x207^")
+  magick::image_write(img, x, format = "png")
+})
+
 googlesheets4::gs4_deauth()
 
 googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1wsgMKiar89XS7XfSMfAistBUYSERVXuyvwxsKzIc1iM/edit#gid=121305671") %>%
   arrange(desc(fecha), desc(recurso)) %>%
   drop_na() %>%
   write_csv(here::here("content", "recursos.csv"))
+
+
+rmarkdown::render(input = "la-ruta-natural.Rmd", output_dir = "docs", output_yaml = "_site.yml")
 
 rmarkdown::render(input = "index.Rmd", output_dir = "docs", output_yaml = "_site.yml")
 
@@ -24,7 +37,7 @@ abrir_biblioteca <- function(){
 }
 
 
-nueva_publicacion_coynutura <- function(publicacion = NULL){
+nueva_publicacion_coyuntura <- function(publicacion = NULL){
   library(tidyverse)
 
  #  publicacion <- "imet" #puede ser imet o coyuntura en diseño, pasando parametro de la función. esta linea es para test
