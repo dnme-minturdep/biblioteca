@@ -34,8 +34,7 @@ knitr::opts_chunk$set(echo = FALSE)
 #source(file.path("R", "functions.R"))
 library(tidyverse)
 # Read in projects csv file 
-projects <- readr::read_csv(here::here("content", "recursos.csv")) %>% 
-  filter(seccion == "Ruta Natural") %>% 
+projects <- readr::read_csv(here::here("content", "recursos-ruta-natural.csv")) %>% 
   select(-seccion)
 
 ```
