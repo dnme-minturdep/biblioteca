@@ -72,7 +72,7 @@ nueva_publicacion_coyuntura <- function(publicacion = NULL){
   #### TEXTO PARA AGREGAR A DESCRIPTION CONDICIONAL A PARAMETRO DE LA FUNCION
 
 
-  desc_imet <- glue::glue("Evolución de los principales indicadores de la actividad turística ({toupper(format(as.Date('2023-11-30'),
+  desc_imet <- glue::glue("Evolución de los principales indicadores de la actividad turística ({toupper(format(Sys.Date(),
                           format='%B %Y'))})")
 
 
@@ -84,9 +84,9 @@ nueva_publicacion_coyuntura <- function(publicacion = NULL){
   ### AGREGO NUEVA PUBLICACION EN FUNCION DEL PARAPETRO PUBLICACION DE LA FUNCION
 
   read_csv("content/recursos_coyuntura.csv") %>%  # LEVANTA DATOS CARGADOS
-    add_row(recurso =  glue::glue("{publicacion}_{as.Date('2023-11-30')}"), # NUEVA FILA CON TODAS LAS VARS
+    add_row(recurso =  glue::glue("{publicacion}_{Sys.Date()}"), # NUEVA FILA CON TODAS LAS VARS
             src =  glue::glue("img/{publicacion}.png"),
-            url =  glue::glue("https://tableros.yvera.tur.ar/recursos/biblioteca/{publicacion}_{as.Date('2023-11-30')}.pdf"),
+            url =  glue::glue("https://tableros.yvera.tur.ar/recursos/biblioteca/{publicacion}_{Sys.Date()}.pdf"),
             description = ifelse(publicacion == "imet", yes = desc_imet, no = desc_panorama),
             tags = ifelse(publicacion == "imet", yes = "Estadísticas Turísticas", no = "Economía del Turismo"),
             fecha = Sys.Date(), .before = 1) %>%
