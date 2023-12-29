@@ -85,7 +85,7 @@ nueva_publicacion_coyuntura <- function(publicacion = NULL){
 
   read_csv("content/recursos_coyuntura.csv") %>%  # LEVANTA DATOS CARGADOS
     add_row(recurso =  glue::glue("{publicacion}_{Sys.Date()}"), # NUEVA FILA CON TODAS LAS VARS
-            src =  glue::glue("img/{publicacion}.png"),
+            src =  glue::glue("img/{publicacion}2.png"),
             url =  glue::glue("https://tableros.yvera.tur.ar/recursos/biblioteca/{publicacion}_{Sys.Date()}.pdf"),
             description = ifelse(publicacion == "imet", yes = desc_imet, no = desc_panorama),
             tags = ifelse(publicacion == "imet", yes = "Estadísticas Turísticas", no = "Economía del Turismo"),
