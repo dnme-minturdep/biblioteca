@@ -9,8 +9,8 @@
 
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans');
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Lora');
 @import url('https://fonts.googleapis.com/css2?family=Fira%20Mono');
 
 
@@ -22,11 +22,11 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #37BBED;
-  --heading-color:   #37BBED;
+  --title-color:     #252C4F;
+  --heading-color:   #252C4F;
   --body-color:      #383838;                    /* edited */
-  --aside-color:     #37BBED;
-  --fig-cap-color:   #37BBED;
+  --aside-color:     #252C4F;
+  --fig-cap-color:   #252C4F;
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'Encode', sans-serif;         /* edited */
   --mono-font:       'Fira Mono', monospace;     /* edited */
@@ -110,13 +110,13 @@ body {
 
 
   /* background-image for fade-to-white color of navbar */
-  background-color: #37BBED;
+  background-color: #252C4F;
 
 }
 
 .distill-site-nav a {
   color: #FFFFFF;
-  background-color: #37BBED;
+  background-color: #252C4F;
   text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ body {
 
 .distill-site-footer {
   color: #f7f7f7b0;
-  background-color: #37BBED;
+  background-color: #252C4F;
   margin-top: 0px;
   padding: 50px 20px;
   font-size: 12px;
