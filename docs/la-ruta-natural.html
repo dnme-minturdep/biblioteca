@@ -458,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -2038,7 +2038,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2060,8 +2060,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
-  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans');
-  @import url('https://fonts.googleapis.com/css2?family=Roboto');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat');
+  @import url('https://fonts.googleapis.com/css2?family=Lora');
   @import url('https://fonts.googleapis.com/css2?family=Fira%20Mono');
 
 
@@ -2073,16 +2073,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #37BBED;
-    --heading-color:   #37BBED;
+    --title-color:     #252C4F;
+    --heading-color:   #252C4F;
     --body-color:      #383838;                    /* edited */
-    --aside-color:     #37BBED;
-    --fig-cap-color:   #37BBED;
+    --aside-color:     #252C4F;
+    --fig-cap-color:   #252C4F;
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    'Encode', sans-serif;         /* edited */
+    --heading-font:    'Lora', sans-serif;         /* edited */
     --mono-font:       'Fira Mono', monospace;     /* edited */
-    --body-font:       'Roboto', sans-serif;         /* edited */
-    --navbar-font:     'Encode', sans-serif;   /* edited */
+    --body-font:       'Montserrat', sans-serif;         /* edited */
+    --navbar-font:     'Lora', sans-serif;   /* edited */
   }
 
 
@@ -2111,13 +2111,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   .distill-site-header .logo img{
-    max-height: 50px; /* Makes logo bigger, default was 20px */
+    max-height: 30px; /* Makes logo bigger, default was 20px */
+    vertical-align: sub;
+    
   }
 
 
 
   .distill-site-header .title {
-      font-weight: 900;
+      font-weight: 600;
   }
 
   ul > li::marker {
@@ -2130,7 +2132,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
-    font-family: "Encode Sans";
+    font-family: "Lora Sans";
     letter-spacing: 2px;
     line-height: 2rem; /* increases, so wrapping headers don't overlap */
 
@@ -2138,7 +2140,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   body {
-    font-family: "Roboto";
+    font-family: "Montserrat";
     color: #1f1f1f;
   }
 
@@ -2156,18 +2158,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   .distill-site-header{
     padding: 10px 0px;
     font-size: 15px;
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Lora Sans', sans-serif;
     letter-spacing: 2px;
 
 
     /* background-image for fade-to-white color of navbar */
-    background-color: #37BBED;
+    background-color: #252C4F;
 
   }
 
   .distill-site-nav a {
     color: #FFFFFF;
-    background-color: #37BBED;
+    background-color: #252C4F;
     text-decoration: none;
   }
 
@@ -2180,7 +2182,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-footer {
     color: #f7f7f7b0;
-    background-color: #37BBED;
+    background-color: #252C4F;
     margin-top: 0px;
     padding: 50px 20px;
     font-size: 12px;
@@ -6911,7 +6913,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="styles.css" type="text/css"/>
+  <link rel="stylesheet" href="/srv/shiny-server/recursos/dnmye/styles.css" type="text/css"/>
   <link rel="stylesheet" href="strapless.css" type="text/css"/>
 
 </head>
@@ -6930,7 +6932,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a class="logo" href="https://www.yvera.tur.ar/sinta/">
-<img src="sinta.png" alt="Logo"/>
+<img src="https://tableros.yvera.tur.ar/recursos/logos_institucionales/sinta.png" alt="Logo"/>
 </a>
 <a href="index.html" class="title">BIBLIOTECA</a>
 </div>
