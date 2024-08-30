@@ -6,7 +6,7 @@ favicon: img/favicon.ico
 output_dir: "docs"
 navbar:
   logo:
-    image: https://tableros.yvera.tur.ar/recursos/logos_institucionales/sinta.png
+    image: sinta.png
     href: https://www.yvera.tur.ar/sinta/
   right:
     - text: "LA RUTA NATURAL"
