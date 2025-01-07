@@ -9,8 +9,8 @@ navbar:
     image: sinta.png
     href: https://www.yvera.tur.ar/sinta/
   right:
-    - text: "LA RUTA NATURAL"
-      href: la-ruta-natural.html
+    #- text: "LA RUTA NATURAL"
+    #  href: la-ruta-natural.html
     - text: "COYUNTURA"
       href: coyuntura.html
     - text: "SINTA"
