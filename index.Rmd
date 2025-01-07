@@ -17,7 +17,7 @@ d-article img {
     background-color: #74a08a;
     color: #FFFFFF;
     padding: 3px 5px 3px 5px;
-    margin: 0 2px 0 2px;
+    margin: 2px 2px 2px 2px;
     border-radius: 5px; /* Rounded edges */
     border: 0px;
 }
